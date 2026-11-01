@@ -117,6 +117,8 @@ button:focus-visible, a:focus-visible, input:focus-visible { outline: 3px solid 
 .project-title-wrap h3 { font-size: clamp(40px, 6vw, 78px); line-height: .9; letter-spacing: -.08em; margin: 0 0 22px; }
 .project-arrow { display: grid; place-items: center; border: 1px solid currentColor; width: 44px; height: 44px; border-radius: 50%; }
 .project-description { font-size: 15px; line-height: 1.55; max-width: 535px; margin: 0 0 28px; }
+.project-repo { display: inline-flex; align-items: center; gap: 7px; margin: -10px 0 25px; font-size: 11px; font-weight: 800; border-bottom: 1px solid currentColor; padding-bottom: 4px; }
+.project-repo:hover { color: var(--orange-deep); }
 .project-details { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; border-top: 1px solid rgba(28,25,23,.3); padding-top: 17px; }
 .project-card.ink .project-details { border-color: rgba(255,255,255,.25); }
 .project-details div { display: flex; flex-direction: column; gap: 6px; }
